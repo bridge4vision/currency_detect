@@ -54,6 +54,7 @@ const Currency_detect = () => {
             }}
           />
         </div>
+        <div></div>
         {/* <div className="row">
           <div className="col-10">
             <button
