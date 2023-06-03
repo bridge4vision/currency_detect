@@ -54,7 +54,7 @@ const Currency_detect = () => {
             }}
           />
         </div>
-        <div></div>
+
         {/* <div className="row">
           <div className="col-10">
             <button
@@ -69,7 +69,7 @@ const Currency_detect = () => {
         {Result && (
           <img
             style={myStyle}
-            src={`http://ec2-13-54-61-95.ap-southeast-2.compute.amazonaws.com:8080/uploads/${Result.filename}`}
+            src={`http://ec2-3-25-210-181.ap-southeast-2.compute.amazonaws.com:8080/uploads/${Result.filename}`}
           ></img>
         )}
         {Result && (
