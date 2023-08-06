@@ -17,6 +17,7 @@ import ResetPassword from "./screens/ResetPassword";
 import CurrecnyDetect from "./screens/Currency_detect";
 import Landing from "./screens/Landing";
 import Car_detection from "./screens/Car_detection";
+import ObjectLocalization from "./screens/ObjectLocalization";
 import "./App.css";
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
             <Route path="/updateProfile" element={<UpdateProfileScreen />} />
             <Route path="/currencydetect" element={<CurrecnyDetect />} />
             <Route path="/cardetetction" element={<Car_detection />} />
+            <Route
+              path="/objectLocalization"
+              element={<ObjectLocalization />}
+            />
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

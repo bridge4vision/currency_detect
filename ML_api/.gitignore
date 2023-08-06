@@ -4,7 +4,7 @@ venv/
 __pycache__/
 
 instance/
-
+YOLO-Object-detection-using-OpenCv/coco/yolov3.weights
 .pytest_cache/
 .coverage
 htmlcov/
